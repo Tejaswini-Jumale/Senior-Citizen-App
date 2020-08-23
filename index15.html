@@ -1,0 +1,108 @@
+<html>
+	<head>
+    	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <style type="text/css">
+		.row
+		{
+			 padding-bottom:20px;
+	         text-align:justify;
+		}
+		body 
+	    {
+              background-image: url("C:\xampp\htdocs\Practice2\Images");
+              background-color: #cccccc;
+        }
+	</style>
+    
+    <body>
+      
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-2">
+            <img src="Images/go.jpg" alt="..." class="img-thumbnail">
+    	</div>
+     	<div class="col-md-10">
+        
+     		<h1 class="display-3"><b>Senior Citizen Care Center</b></h1>
+    	</div>
+    </div>
+ 
+    	<form action="index16.html" method="get">
+        	<div class="container">
+            	
+                <div class="row">
+                	<div class="col-md-2">Enter Name</div>
+                    <div class="col-md-4"><input class="form-control" type="text" name="name" value="" placeholder="Enter Name Here..."/></div>
+                </div><!-- Second Row-->
+                
+                <div class="row">
+                	<div class="col-md-2">
+                    	Enter Address
+                    </div>
+                    <div class="col-md-4">
+                    	 <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address Here.....">
+                    </div>
+                </div><!--Row-->
+                
+                 <div class="row">
+                	<div class="col-md-2">
+                    Enter City
+                    </div>
+                    <div class="col-md-4">
+                    	 <input type="text" class="form-control" id="inputCity" placeholder="Enter City Here.....">
+                    </div>
+                </div><!--Row-->
+                 
+                
+                 <div class="row">
+                	<div class="col-md-2">
+                    	Select Gender
+                    </div>
+                    <div class="col-md-4">
+                    	Male<input checked type="radio" value="male" name="gender"/>
+                        Female<input type="radio" value="female" name="gender"/>
+                    </div>
+                </div><!--Row-->
+                
+                
+                <div class="row">
+                	<div class="col-md-2">
+                    Enter DOB
+                    </div>
+                    <div id="date2" class="datefield">
+    <input id="day" name="BirthDate" type="number" placeholder="DD" style="width:20%;" min="1" max="31" required /> /
+    <input id="month" name="BirthDate" type="number" placeholder="MM" style="width:20%;" min="1" max="12" required /> /
+    <input id="year" name="BirthDate" type="number" maxlength="4" placeholder="YYYY" style="width:24%;" min="1955" max="2050" required />
+</div>
+                 </div><!--Row-->
+                
+               <div class="row">
+                	<div class="col-md-2">
+                    	Diseases
+                    </div>
+                    <div class="col-md-4">
+                    	Sugar<input checked type="checkbox" value="sugar" name="disease"/><br>
+                        Cancer<input type="checkbox" value="cancer" name="disease"/><br>
+                        Corona<input type="checkbox" value="corona" name="disease"/><br>
+                        BP<input type="checkbox" value="bp" name="disease"/><br>
+                        Heart Disease<input type="checkbox" value="heart disease" name="disease"/><br>
+                       Allergies & Asthma<input type="checkbox" value="allergies & asthma." name="disease"/>
+                        
+                    </div>
+                </div><!--Row-->
+        
+                 
+                 <div class="row">
+                	<div class="col-md-6">
+                    	
+                    	<input class="btn btn-primary" type="submit" value="Submit"/>
+                    </div>
+                </div><!--Row-->
+            </div><!--Container-->
+           
+        
+        	
+        </form>
+    </body>
+</html>
